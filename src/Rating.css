@@ -1,0 +1,27 @@
+.rating {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+.rating-main {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: #079741;
+  width: 125px;
+  height: 35px;
+}
+.rating-value {
+  color: white;
+  margin: 7px;
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 2px;
+}
+.rating-review {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #424648;
+  font-weight: 600;
+}

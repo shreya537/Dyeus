@@ -1,0 +1,72 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+  }
+@media (max-width: 800px) {
+    .cards {
+      flex-direction: column;
+      margin-left: 20px;
+      margin-right: 40px;
+      width: 90%;
+      /* margin-right: 10px; */
+    }
+  }
+  .most-popular {
+    
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .most-popular-top {
+    background-color: #067bd8;
+    width: fit-content;
+  
+    padding: 3px;
+    color: white;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+  .most-popular-header {
+    color: white;
+    width: 200px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .most-popular-save-price {
+    color: #425960;
+    padding-top: 5px;
+  }
+  .most-popular-save {
+    display: flex;
+    flex-direction: row;
+  
+    width: 100%;
+    padding-top: 10px;
+  }
+  .most-popular-right {
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, serif;
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  .card-info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.card-tick {
+    /* padding: 5px; */
+    /* color:white; */
+    height: 30px;
+    width: 30px;
+    padding-top: 50px;
+    margin-left: 15px;
+}

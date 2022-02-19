@@ -1,0 +1,38 @@
+.main-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+  .main-text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .main-text-desc {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 8px;
+    margin-left: 20px;
+    color: #c4cacf;
+  }
+  .price {
+    margin: 20px;
+  }
+  .price-og {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .price-dp {
+    color: #3c464f;
+    font-size: 40px;
+    margin-left: 20px;
+  }

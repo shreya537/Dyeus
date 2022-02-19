@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.add-cart {
+  color: white;
+  background-color: #13324a;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 12px;
+  font-weight: 600;
+}
+
+

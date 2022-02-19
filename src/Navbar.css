@@ -1,0 +1,14 @@
+.navbar {
+  padding: 25px;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 2px solid #444445;
+}
+.main-header-icon {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
